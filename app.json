@@ -1,0 +1,58 @@
+{
+    "rev": {
+        "site": "Application FOLDER name",
+        "php": "5.5"
+    },
+
+    "site": {
+        "url": "http://rev.dev",
+        "production": "1",
+        "theme": "Theme name",
+        "name": "Name of the site",
+        "title": "Title / camption of the site",
+        "mobile": {
+            "enabled": "0",
+            "name": "Normal"
+        }
+    },
+
+    "routing": {
+        "index": "Index",
+        "404": "index"
+    },
+
+    "db": {
+        "app name": {
+            "driver": "mysql",
+            "host": "127.0.0.1",
+            "username": "root",
+            "password": "password",
+            "database": "db name",
+            "charset": "utf8",
+            "collation": "utf8_unicode_ci",
+            "persistent": "1"
+        }
+    },
+
+    "session": {
+        "enabled": "0",
+        "handler": "Handler name",
+        "lifetime": "3600",
+        "gc_probability": "1",
+        "gc_divisor": "100",
+        "gc_maxlifetime": "1440"
+    },
+
+    "cache": {
+        "lifetime": "3600",
+        "memcached": {
+            "127.0.0.1": "60"
+        },
+        "file": {
+            "dir": "Cache",
+            "ext": ".cache"
+        }
+    },
+
+    "language": "English"
+}

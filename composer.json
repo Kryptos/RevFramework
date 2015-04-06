@@ -1,0 +1,23 @@
+{
+    "name": "kryptos/revframework",
+    "description": "Framework for building beautifully engineered websites, in PHP",
+    "license": "MIT",
+
+    "config": {
+        "vendor-dir": "Rev/Plugins"
+    },
+
+    "require": {
+        "klein/klein": "2.*",
+        "kryptos/errorhandler": "dev-master",
+        "mustache/mustache": "dev-dev",
+        "usmanhalalit/pixie": "1.*@dev",
+        "cboden/Ratchet": "0.3.*"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Rev": ""
+        }
+}
+}
